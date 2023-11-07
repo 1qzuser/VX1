@@ -22,8 +22,4 @@ jobs:
 
       - name: Run script
         run: |
-          python your_script_name.py  # Replace with your actual script name
-        env:
-          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
-          TG_USER_ID: ${{ secrets.TG_USER_ID }}
-          # Add any other necessary environment variables here
+          python bushu.py  # Replace with your actual script name
